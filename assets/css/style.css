@@ -1,11 +1,7 @@
-/**
-* Template Name: Company
-* Updated: Sep 18 2023 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
+ /* =======================================================
+  * Company Name: softneutrino.ai
+  * Author: Habib
+  ========================================================  */
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -107,6 +103,13 @@ h6 {
 #header .logo img {
   max-height: 40px;
 }
+/* @media screen and (max-width:991.98px) {
+  #header .logo img{
+    max-width: 28px;
+    max-height: 28px;
+  }
+  
+} */
 
 /*--------------------------------------------------------------
 # Header Social Links
@@ -2077,11 +2080,18 @@ section {
   color: #fff;
   font-size: 14px;
   background: #111;
+  background: #0A0826;
+  padding-bottom: 10px;
 }
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
   background: #1e1e1e;
+}
+#footer .footer-top #footer-top{
+  display: flex ;
+  justify-content: space-between !important;
+  
 }
 
 #footer .footer-top .footer-contact {
@@ -2154,35 +2164,35 @@ section {
   color: #fff;
 }
 
-#footer .footer-newsletter {
+/* #footer .footer-newsletter {
   font-size: 15px;
   color: rgba(255, 255, 255, 0.7);
-}
+} */
 
-#footer .footer-newsletter h4 {
+/* #footer .footer-newsletter h4 {
   font-size: 16px;
   font-weight: bold;
   color: #fff;
   position: relative;
   padding-bottom: 12px;
-}
+} */
 
-#footer .footer-newsletter form {
+/* #footer .footer-newsletter form {
   margin-top: 30px;
   background: #fff;
   padding: 6px 10px;
   position: relative;
   border-radius: 4px 0 0 4px;
   text-align: left;
-}
+} */
 
-#footer .footer-newsletter form input[type=email] {
+/* #footer .footer-newsletter form input[type=email] {
   border: 0;
   padding: 4px 8px;
   width: calc(100% - 100px);
-}
+} */
 
-#footer .footer-newsletter form input[type=submit] {
+/* #footer .footer-newsletter form input[type=submit] {
   position: absolute;
   top: 0;
   right: -4px;
@@ -2196,11 +2206,11 @@ section {
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
+} */
 
-#footer .footer-newsletter form input[type=submit]:hover {
+/* #footer .footer-newsletter form input[type=submit]:hover {
   background: #2ae149;
-}
+} */
 
 #footer .credits {
   padding-top: 5px;
